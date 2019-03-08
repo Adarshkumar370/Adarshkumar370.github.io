@@ -1,9 +1,52 @@
 *{
-margin:0;
-padding:0;
-box-sizing: border-box; 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-width:100%;
-height:100%;
+body{
+    background-color: black;
+    color: white;
+    height: 4000px;
+    
+
 }
+.navBar {
+    display: grid;
+    height: 50px;
+    grid-template-columns: repeat(4,minmax(150px,1fr));
+    background-color: white;
+    color: black;
+    line-height: 50px;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.content{
+    margin-top: 2px;
+    padding: 10px;
+    color:black;
+    background-color: white;
+    height: 2000px;
+}
+.aboutMe{
+    display:grid;
+    grid-template-columns: minmax(350px,6fr) minmax(250px,1fr);
+
+}
+.text{
+    margin: auto;
+    
+}
+.image{
+    margin-top: auto;
+
+}
+.footer{}
